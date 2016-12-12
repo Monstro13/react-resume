@@ -1,0 +1,30 @@
+.link {
+    &-item {
+        display: inline;
+        float: right;
+        &:not(:first-child) {
+            margin-right: 15px;
+        }
+        a {
+            color:  #81007F;
+            &:hover {
+                color: #630061
+            }
+            &:active {
+                color: white;
+            }
+        }
+    }
+    &s-wrapper {
+        max-width: 35%;
+        position: fixed;
+        right: 20px;
+        font-size: 20px;
+        &.bottom {
+            bottom: 25px;
+        }
+        &.top {
+            top: 25px;
+        }
+    }
+}
