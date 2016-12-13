@@ -3,11 +3,11 @@ import Skilltags from '../skilltags';
 
 let skills = [
     {
-        group: "Super skills",
+        group: "Expert skills",
         items: ["Javascript", "AngularJs"]
     },
     {
-        group: "High skills",
+        group: "Advanced skills",
         items: ["ReactJs", "Flux/Redux", "HTML", "Jade", "CSS", "PostCSS", "ES6", "Node.js", "Express.js", "Webpack",
             "Gulp", "MongoDB", "Mongoose", "GIT", "German", "English"]
     },
