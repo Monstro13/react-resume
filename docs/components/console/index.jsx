@@ -75,12 +75,12 @@ class Console extends Component {
         return this.setState({
             historyCmds: [].concat(this.state.historyCmds,
                 { text: activeCmd, class: 'active-cmd' },
-                { text: `Page 'About' - get about`, class: 'multiline' },
-                { text: `Page 'Education' - get education`, class: 'multiline' },
-                { text: `Page 'Experience' - get experience`, class: 'multiline' },
-                { text: `Page 'Skills' - get skills`, class: 'multiline' },
-                { text: `Clear console outputs - clear`, class: 'multiline' },
-                { text: `Get help - help`, class: 'multiline' }),
+                { text: `get about - Page 'About'`, class: 'multiline' },
+                { text: `get education - Page 'Education'`, class: 'multiline' },
+                { text: `get experience - Page 'Experience'`, class: 'multiline' },
+                { text: `get skills - Page 'Skills'`, class: 'multiline' },
+                { text: `clear - Clear console outputs`, class: 'multiline' },
+                { text: `help - Get help`, class: 'multiline' }),
         });
     }
 

@@ -12,7 +12,7 @@ const Author = (props) => (
                 Vadim Tcaregorodtcev
             </div>
             <div className="author-info-position">
-                Senior Frontend developer
+                Senior Frontend Developer
             </div>
         </div>
     </div>

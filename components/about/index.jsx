@@ -6,7 +6,7 @@ const About = () => (
         <div className="about-title common-title">About me</div>
         <div className="about-text">
             <p className="redline">
-                Hello world! My name is <span className="joke">John Cena</span> Vadim. I'am web developer specializing in the development of client web applications with experience in more than one year.
+                Hello world! My name is <span className="joke">John Cena</span> Vadim. I'am web developer specializing in the development of client web applications with experience in more than three years.
             </p>
 
             <p className="redline">

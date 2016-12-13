@@ -25,6 +25,7 @@ class App extends Component {
                     { caption: 'times-circle-o', url: 'javascript:void(0)', onclick: this.nextPage.bind(this, null, 'about') }
                 ]
             },
+            windowWidth: window.innerWidth,
             pages: ['education', 'experience', 'skills', 'about'],
             currPage: 0,
             winWidth: 25 / window.innerWidth,
@@ -76,7 +77,7 @@ class App extends Component {
                         </div>
                         {this.props.children}
                         <div className="links">
-                            <Links links={this.state.refers.social} place="bottom" />
+                            <Links links={this.state.refers.social} place={this.state.windowWidth > 450 ? 'bottom' : 'top left'} />
                         </div>
                     </div>
                 </div>
